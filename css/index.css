@@ -1,0 +1,72 @@
+body, h1 {
+margin: 0;
+}
+body {
+    background: url(https://cdn24.img.ria.ru/images/07e4/04/08/1569732797_0:0:3072:1728_1920x0_80_0_0_1f80c9d76af3b4e8da3d493ad68cdce4.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+button {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-left: 130px;
+  margin-top: 100px;
+}
+
+.whiteButton {
+    background-color: white;
+    color: black;
+}
+.blackButton {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+  color: wheat;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-left: 260px;
+  padding-top: 30px;
+}
+p {
+  font-family: 'William', serif;
+  font-size: 20px;
+  color: wheat;
+}
+a {
+  font-family: 'William', serif;
+  font-size: 15px;
+  color: ghostwhite;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+header {
+
+}
+/*div {*/
+/*  width: 250px;*/
+/*  height: 475px;*/
+/*  background-color: rgba(50,50,55,0.1);*/
+/*  margin-left: 85px;*/
+/*  text-align: left;*/
+/*  font-size: 30px;*/
+/*  color: whitesmoke;*/
+/*}*/
+
+.week {
+  display: flex;
+  align-self: center;
+}
+.content {
+    display: none;
+    width: 250px;
+    background-color: rgba(50,50,55,0.1);
+    margin-left: 85px;
+    text-align: left;
+    font-size: 30px;
+    color: whitesmoke;
+
+}
