@@ -44,7 +44,6 @@ a {
 }
 
 header {
-
 }
 /*div {*/
 /*  width: 250px;*/
@@ -68,5 +67,17 @@ header {
     text-align: left;
     font-size: 30px;
     color: whitesmoke;
-
 }
+#content2 {
+    display: none;
+    width: 250px;
+    background-color: rgba(50,50,55,0.1);
+    margin-top: 100px;
+    margin-left: 385px;
+    text-align: left;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+
+
