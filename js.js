@@ -16,16 +16,16 @@ function changeButtonsColor (clickedButton) {
 }
 
 function hideContents (clickedButton) {
-  let continent = document.getElementById(clickedButton.dataset.contentId)// обратились к дата контенту
+  let continent = document.getElementById(clickedButton.dataset.contentId)
   if(continent.style.display === "block" ){
-    continent.style.display = "none"; //сделали видимым контент
+    continent.style.display = "none";
   } else {
     continent.style.display = "block"
   }
   for (let i = 0; i<contents.length; i++){
     let ghostContent = contents[i];
     if(continent !== ghostContent){
-      ghostContent.style.display = "none"; // прячем контент
+      ghostContent.style.display = "none";
     }
   }
 }
